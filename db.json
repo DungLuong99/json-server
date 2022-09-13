@@ -1,0 +1,38 @@
+{
+  "category": [
+    "chicken",
+    "curry",
+    "rice",
+    "fish",
+    "fruits",
+    "icecream",
+    "drink"
+  ],
+  "product": [
+    {
+      "name": "Chickens fired",
+      "price": 60,
+      "calories": 110,
+      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ",
+      "id": 1
+    },
+    {
+      "name": "Chickens fired",
+      "price": 60,
+      "calories": 110,
+      "createdAt": 1662821062901,
+      "updateAt": 1662821062901,
+      "id": 2,
+      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ"
+    },
+    {
+      "name": "Chickens fired",
+      "price": 60,
+      "calories": 110,
+      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ",
+      "createdAt": 1663060083349,
+      "updateAt": 1663060083349,
+      "id": 3
+    }
+  ]
+}

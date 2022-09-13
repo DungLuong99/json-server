@@ -1,0 +1,18 @@
+@baseURL = http://localhost:3000
+
+## Category
+
+GET {{baseURL}}
+
+
+###
+
+POST {{baseURL}}/product
+Content-Type: application/json
+
+{
+    "name": "Chickens fired",
+        "price": 60,
+    "calories": 110,
+    "imageURL" : "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ"
+}
