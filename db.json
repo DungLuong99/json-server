@@ -1,5 +1,5 @@
 {
-  "category": [
+  "categories": [
     "chicken",
     "curry",
     "rice",
@@ -8,11 +8,13 @@
     "icecream",
     "drink"
   ],
-  "product": [
+  "products": [
     {
       "name": "Chickens fired",
       "price": 60,
       "calories": 110,
+      "createdAt": 1662821062911,
+      "updateAt": 1662821062911,
       "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ",
       "id": 1
     },
