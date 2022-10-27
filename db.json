@@ -10,31 +10,444 @@
   ],
   "products": [
     {
-      "name": "Chickens fired",
-      "price": 60,
-      "calories": 110,
-      "createdAt": 1662821062911,
-      "updateAt": 1662821062911,
-      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ",
+      "name": "melon water",
+      "calories": 112,
+      "price": 12,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863488/f10_aopxio.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
       "id": 1
     },
     {
-      "name": "Chickens fired",
-      "price": 60,
-      "calories": 110,
-      "createdAt": 1662821062901,
-      "updateAt": 1662821062901,
-      "id": 2,
-      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ"
+      "name": "banana",
+      "calories": 201,
+      "price": 22,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863484/f9_xykifv.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 2
     },
     {
-      "name": "Chickens fired",
-      "price": 60,
-      "calories": 110,
-      "imageURL": "https://hproyahquaecbsszfmeq.supabase.co/storage/v1/object/sign/test/248ef336e57a26247f6b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0LzI0OGVmMzM2ZTU3YTI2MjQ3ZjZiLmpwZyIsImlhdCI6MTY2MzAwMTg4NSwiZXhwIjoxOTc4MzYxODg1fQ.OlKbXTH2r20EiOirhBM36c8cI8NQSBOgLY_9jVx5flQ",
-      "createdAt": 1663060083349,
-      "updateAt": 1663060083349,
+      "name": "raspberry",
+      "calories": 32,
+      "price": 142,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863484/f7_anityj.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
       "id": 3
+    },
+    {
+      "name": "cherry",
+      "calories": 112,
+      "price": 42,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863483/f8_gu9omy.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 4
+    },
+    {
+      "name": "black raspberry",
+      "calories": 33,
+      "price": 12,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863482/f3_iznjx3.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 5
+    },
+    {
+      "name": "Pomegranate",
+      "calories": 33,
+      "price": 12,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863482/f6_va6fs1.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 6
+    },
+    {
+      "name": "grape",
+      "calories": 33,
+      "price": 12,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863480/f4_zg7zd7.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 7
+    },
+    {
+      "name": "strawberry",
+      "calories": 313,
+      "price": 121,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863480/f5_rn4vpd.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 8
+    },
+    {
+      "name": "pineapple",
+      "calories": 313,
+      "price": 121,
+      "category": "fruits",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863478/f2_bc8icm.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 9
+    },
+    {
+      "name": "fire chicken",
+      "calories": 331,
+      "price": 112,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863473/c4_isshfn.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 10
+    },
+    {
+      "name": "tandoki chicken",
+      "calories": 413,
+      "price": 221,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863482/c6_rhd14r.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 11
+    },
+    {
+      "name": "chicken korma",
+      "calories": 241,
+      "price": 130,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863468/cu5_tkm2af.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 12
+    },
+    {
+      "name": "chicken 1",
+      "calories": 313,
+      "price": 121,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863468/cu4_bcftio.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 13
+    },
+    {
+      "name": "chicken 2",
+      "calories": 313,
+      "price": 121,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863468/cu4_bcftio.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 14
+    },
+    {
+      "name": "curry 2",
+      "calories": 313,
+      "price": 121,
+      "category": "curry",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863471/cu6_hzhea8.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 15
+    },
+    {
+      "name": "curry 3",
+      "calories": 313,
+      "price": 121,
+      "category": "chicken",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863467/cu2_bs8fyk.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 16
+    },
+    {
+      "name": "curry 4",
+      "calories": 313,
+      "price": 121,
+      "category": "curry",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863467/cu3_v8shlw.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 17
+    },
+        {
+      "name": "rice 1",
+      "calories": 313,
+      "price": 121,
+      "category": "rice",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863503/r5_cko4tg.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 18
+    },
+    {
+      "name": "rice 2",
+      "calories": 313,
+      "price": 121,
+      "category": "rice",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863498/r3_lnwgov.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 19
+    },
+    {
+      "name": "rice 3",
+      "calories": 313,
+      "price": 121,
+      "category": "rice",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863498/r4_qsem5s.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 20
+    },
+    {
+      "name": "rice 4",
+      "calories": 313,
+      "price": 121,
+      "category": "rice",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863498/r1_i07pgu.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 21
+    },
+    {
+      "name": "fish 1",
+      "calories": 313,
+      "price": 121,
+      "category": "fish",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863490/fi3_a6vkt7.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 22
+    },
+    {
+      "name": "fish 2",
+      "calories": 313,
+      "price": 121,
+      "category": "fish",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863487/fi2_vkgju4.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 23
+    },
+    {
+      "name": "fish 4",
+      "calories": 313,
+      "price": 121,
+      "category": "fish",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863487/fi5_w2psxf.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 24
+    },
+    {
+      "name": "fish 5",
+      "calories": 313,
+      "price": 121,
+      "category": "fish",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863490/fi4_itid6u.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 25
+    },
+    {
+      "name": "icecream 1",
+      "calories": 313,
+      "price": 121,
+      "category": "icecreams",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863498/i7_kybief.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 26
+    },
+    {
+      "name": "icecream 2",
+      "calories": 313,
+      "price": 121,
+      "category": "icecreams",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863496/i5_mks5jp.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 27
+    },
+    {
+      "name": "icecream 3",
+      "calories": 313,
+      "price": 121,
+      "category": "icecreams",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863495/i4_th9aye.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 28
+    },   {
+      "name": "icecream 4",
+      "calories": 313,
+      "price": 121,
+      "category": "icecreams",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863492/i6_hhhtek.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 29
+    },   {
+      "name": "icecream 5",
+      "calories": 313,
+      "price": 121,
+      "category": "icecreams",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863490/i3_egyzsf.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 30
+    },
+    {
+      "name": "drink 1",
+      "calories": 313,
+      "price": 121,
+      "category": "drink",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863476/d8_mtna3f.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 31
+    },
+    {
+      "name": "drink 2",
+      "calories": 313,
+      "price": 121,
+      "category": "drink",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863474/d6_xeec7j.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 32
+    },
+    {
+      "name": "drink 3",
+      "calories": 313,
+      "price": 121,
+      "category": "drink",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863476/d4_bcqrmd.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 33
+    },
+    {
+      "name": "drink 4",
+      "calories": 313,
+      "price": 121,
+      "category": "drink",
+      "image": {
+        "imageURL": "https://res.cloudinary.com/dqqkocsxg/image/upload/v1666863483/d7_kh8a2e.png"
+      },
+      "quantity": 1,
+      "createdAt": 1665197257553,
+      "updateAt": 1665197257553,
+      "id": 34
     }
   ]
 }
